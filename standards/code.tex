@@ -1,0 +1,21 @@
+% arara: pdflatex
+% arara: clean: { extensions: [ aux, log ] }
+% arara: mkdir: { target: 'pdf' }
+% arara: move: { files: [ 'code.pdf' ], target: 'pdf/code.pdf' }
+
+\documentclass[12pt,a4paper,twoside,BCOR=5.8mm,DIV=15]{scrreprt}
+\title{Code standards}
+\author{Anton Hirov}
+\date{January 2024}
+\begin{document}
+
+\maketitle
+
+\begin{enumerate}
+    \item Rule name: rule;
+    \begin{enumerate}
+        \item Sub rule name: rule;
+    \end{enumerate}
+\end{enumerate}
+
+\end{document}
